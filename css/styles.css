@@ -511,6 +511,7 @@ img {
   height: 40px;
   padding-left: 38px;
   transition: border-color 250ms ease-out;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-comment {
   height: 120px;
@@ -574,6 +575,7 @@ img {
   .review-form-own-checkbox {
   background-color:  var(--iris, #4D5AE5);
   stroke: #f4f4fd;
+  border: none;
 }
 .review-form-checkbox:focus
   + .review-form-checkbox-label
@@ -626,5 +628,8 @@ margin-bottom: 24px;
 /*========== /FORM ===========*/
 /*========== /MODAL ===========*/
 .review-form-checkbox-label {
+  line-height: 1.17;
+}
+.review-form-field-label {
   line-height: 1.17;
 }
