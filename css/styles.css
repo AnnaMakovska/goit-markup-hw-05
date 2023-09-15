@@ -440,7 +440,6 @@ img {
 }
 .footer-button {
   display: flex;
-  gap: 16px;
   justify-content: center;
   align-items: center;
   min-width: 165px;
@@ -465,6 +464,9 @@ img {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
+}
+.footer-button-icon {
+  margin-left: 16px;
 }
 
 /*========== BACKDROP ===========*/
