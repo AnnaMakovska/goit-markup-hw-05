@@ -499,12 +499,36 @@
           </ul>
         </div>
         <div class="footer-third-wrapper">
+          <p class="footer-text-social-media">
+            Subscribe
+          </p>
+          <form class="footer-form">
+            <label
+              for="user-subscribe"
+            >
+              <input
+                class="footer-input"
+                type="email"
+                placeholder="E-mail"
+                id="user-subscribe"
+                name="user-subscribe"
+                title="Email"
+                required
+              />
+            </label>
 
+            <button class="footer-button" type="submit">
+              <span class="footer-button-text">Subscribe</span>
+              <svg width="24" height="24" aria-label="user telegram">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
-    <!-- BACKDROP WITH MODAL WINDOW -->
-    <div class="backdrop is-open">
+    <!-- BACKDROP WITH MODAL WINDOW is-open-->
+    <div class="backdrop ">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg
@@ -521,9 +545,7 @@
         </p>
         <form class="review-form">
           <div class="review-form-field-wrapper">
-            <label class="review-form-field-label" for="user-name"
-              >Name</label
-            >
+            <label class="review-form-field-label" for="user-name">Name</label>
             <div class="review-form-input-wrapper">
               <input
                 type="text"
@@ -618,9 +640,7 @@
                   height="8"
                   aria-label="checkmark label"
                 >
-                  <use
-                    href="./images/icons.svg#icon-checkmark"
-                  ></use>
+                  <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
