@@ -642,8 +642,8 @@ img {
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   .review-form-own-checkbox {
-  background-color: var(--iris, #4d5ae5);
-  stroke: #f4f4fd;
+  background-color: #404bbf;
+  fill:  #F4F4FD;
   border: none;
 }
 .review-form-checkbox:focus
